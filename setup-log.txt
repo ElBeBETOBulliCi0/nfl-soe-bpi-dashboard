@@ -1,0 +1,54 @@
+
+===== setup 2026-11-18 10:39:23 =====
+10:37:49 Sistema detectado: windows x64  |  Python del arranque: 3.15.0
+10:39:23     Creando proyecto en: C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam
+10:39:23 MODO: instalación  |  versión del script: 2026-11-16  |  argumentos: (ninguno)
+10:39:23 SISTEMA: Windows-11-10.0.26200-SP0  |  detectado: windows x64  |  versión: 10.0.26200
+10:39:23 WINDOWS: build 26200  |  administrador: False
+10:39:23 PYTHON: 3.15.0 (C:\Users\thega\AppData\Local\Programs\Python\Python315\python.exe)
+10:39:23 USUARIO: thega  |  carpeta actual: C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\plantilla-hackathon
+10:39:23 PROYECTO: C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam  |  largo de ruta: 79  |  espacios: False  |  no ASCII: False
+10:39:23 DISCO LIBRE: 88.5 GB
+10:39:23 PROXY: ninguno
+10:39:23 Proyecto: C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam
+10:39:23 
+[1/8] Preparando carpetas
+10:39:23     Reglas de Kiro instaladas en .kiro/steering/rules.md
+10:39:23 
+[2/8] Instalando uv 0.11.19
+10:39:23 descargando https://astral.sh/uv/0.11.19/install.ps1
+10:39:24 $ powershell -NoProfile -ExecutionPolicy Bypass -File C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam\.hackathon\.cache\downloads\uv-install.ps1
+10:39:38 downloading uv 0.11.19 (x86_64-pc-windows-msvc)
+installing to C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam\.hackathon\.tools\uv
+  uv.exe
+  uvx.exe
+  uvw.exe
+everything's installed!
+10:39:44     uv 0.11.19 instalado en .tools/uv
+10:39:44 
+[3/8] Instalando Python 3.12.12 y creando .venv
+10:39:44 $ C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam\.hackathon\.tools\uv\uv.exe python install 3.12.12 --no-bin --no-registry
+10:39:51 Downloading cpython-3.12.12-windows-x86_64-none (download) (20.8MiB)
+ Downloaded cpython-3.12.12-windows-x86_64-none (download)
+Installed Python 3.12.12 in 6.83s
+ + cpython-3.12.12-windows-x86_64-none
+10:39:51     Python 3.12.12 disponible en .tools/python
+10:39:51 $ C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam\.hackathon\.tools\uv\uv.exe venv --python 3.12.12 C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam\.venv
+10:40:00 Using CPython 3.12.12
+Creating virtual environment at: .venv
+Activate with: .venv\Scripts\activate
+10:40:00     .venv creado
+10:40:00 
+[4/8] Instalando dependencias de Python (una sola resolución, solo ruedas)
+10:40:00 $ C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam\.hackathon\.tools\uv\uv.exe pip install --python C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam\.venv\Scripts\python.exe --only-binary :all: --require-hashes -r C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam\.hackathon\requirements.lock
+10:40:01 error: Failed to inspect Python interpreter from provided path at `.venv\Scripts\python.exe`
+  Caused by: Failed to query Python interpreter at `C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam\.venv\Scripts\python.exe`
+  Caused by: An Application Control policy has blocked this file. (os error 4551)
+10:40:01 
+ERROR: No se pudieron instalar las dependencias de Python
+    Salida:
+      error: Failed to inspect Python interpreter from provided path at `.venv\Scripts\python.exe`
+        Caused by: Failed to query Python interpreter at `C:\Users\thega\OneDrive\Documents\NFLTRIPLET\plantilla-hackathon\hackathon-unam\.venv\Scripts\python.exe`
+        Caused by: An Application Control policy has blocked this file. (os error 4551)
+10:40:01 QUÉ HACER: Revisa tu conexión y vuelve a correr el script. Si el error menciona una rueda (wheel) no disponible, envía setup.log.
+10:40:01 FIN con código de salida 1

@@ -1,0 +1,428 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Extend Pydantic schemas in `backend/schemas.py`": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026660902
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026666724
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026708118
+      }
+    ],
+    "1.2 Add `playDescription` to the precomputed pipeline and store": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026660966
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026667104
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026708921
+      }
+    ],
+    "1.3 Extend `backend/routers/soe.py`": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661016
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026714337
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026773750
+      }
+    ],
+    "1.4 Extend `backend/routers/bpi.py`": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661063
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026714444
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026773843
+      }
+    ],
+    "2. Checkpoint - Backend complete": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661132
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795027247384
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795027250214
+      }
+    ],
+    "3.1 Configure the Vite proxy": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661180
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026667908
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026709466
+      }
+    ],
+    "3.2 Create `dashboard/src/api/types.ts`": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661231
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026668504
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026710139
+      }
+    ],
+    "3.3 Create `dashboard/src/api/client.ts`": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661278
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026714670
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026774757
+      }
+    ],
+    "3.4 Create `lib/format.ts`, `lib/filters.ts`, `lib/paging.ts`": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661323
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026715463
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026775565
+      }
+    ],
+    "3.5 Create `lib/kpi.ts`, `lib/bpi.ts`, `lib/field.ts`": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661367
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026716103
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026776485
+      }
+    ],
+    "3.6 Create `dashboard/src/hooks/useApi.ts`": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661414
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026783854
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026826711
+      }
+    ],
+    "4.1 Create `StateViews`, `Header`, `Tabs`, `MethodologyPanel` in `dashboard/src/components/`": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661471
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026831218
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026914926
+      }
+    ],
+    "4.2 Create `FilterBar` and `KpiCards`": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661539
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026831318
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026915033
+      }
+    ],
+    "5.1 Create `Heatmap` component": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661580
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026832096
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026915862
+      }
+    ],
+    "5.2 Create `ReceiverRanking` and `PlayList` components": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661624
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026833141
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026916914
+      }
+    ],
+    "5.3 Create `FieldView` component": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661673
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026833885
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026917733
+      }
+    ],
+    "6.1 Create `RushersChart` component": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661719
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026918822
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026965798
+      }
+    ],
+    "6.2 Create `DxdMatrix` component": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661764
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026919855
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026966782
+      }
+    ],
+    "6.3 Create `TeamRanking` component": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661807
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026920711
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026967762
+      }
+    ],
+    "7.1 Wire everything in `dashboard/src/App.tsx`": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661854
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026970531
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795027205324
+      }
+    ],
+    "8. Checkpoint - Dashboard complete": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661900
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795027247486
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795027250802
+      }
+    ],
+    "9.1 Update `backend/RUN_COMMANDS.md` and list the external CMD commands": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026661954
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795027210914
+      },
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795027242842
+      }
+    ],
+    "1. Backend additive extensions": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026773889
+      }
+    ],
+    "3. Dashboard foundation (config, types, client, pure helpers, hook)": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026826787
+      }
+    ],
+    "4. Shell and shared components": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026915079
+      }
+    ],
+    "5. SOE tab components": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026917813
+      }
+    ],
+    "6. BPI tab components": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795026967817
+      }
+    ],
+    "7. Integration and wiring": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795027205391
+      }
+    ],
+    "9. Final task: run documentation": [
+      {
+        "executionId": "de7080fa-b400-4c12-8b8a-896f881beab1",
+        "chatSessionId": "sess_b928404e-b3a4-49b1-a988-83ef55c4a97f",
+        "timestamp": 1795027242901
+      }
+    ]
+  }
+}
